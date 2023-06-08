@@ -25,11 +25,11 @@ for (int i = 0; i < array.Length; i++)
     if (max < array[i] ) max=array[i];
     if (min > array[i]) min=array[i];
 }
-sum = max-min;
+sum = Math.Round(max-min,2);
 System.Console.WriteLine($"Разница между мин и мах = {sum}");
 }
 
-Console.Clear();
+//Console.Clear();
 Console.WriteLine("Введите размерность массива");
 int size = Convert.ToInt32(Console.ReadLine());
 double[] array = new double[size];

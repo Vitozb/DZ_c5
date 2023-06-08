@@ -26,7 +26,7 @@ if (i % 2 != 0)
 System.Console.WriteLine($"Сумма нечетных элементов = {sum}");
 }
 
-Console.Clear();
+//Console.Clear();
 Console.WriteLine("Введите размерность массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[size];
